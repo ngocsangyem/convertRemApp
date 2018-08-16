@@ -20,7 +20,7 @@ document.getElementById('numberInput').addEventListener('input',function(e){
 	// }
 
 	// rem / default value
-	document.getElementById('remOutput').innerHTML = Math.round((rems/defaultNumber)*100)/100 + " rem";
+	document.getElementById('remOutput').innerHTML = Math.round((rems/defaultNumber)*100)/100 + "rem";
 
 
 })
